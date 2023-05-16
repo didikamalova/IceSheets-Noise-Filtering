@@ -35,3 +35,11 @@ I feel like Dusty hinted that we should use an LPF, we just need to shift it.
 LOWPASS FILTER CHARACTERISTICS
 lowpass_filter = scipy.signal.butter(4, 15e6, btype='lowpass', output='sos', fs=ds.fs)
 - 15 mHz, fourth order butterworth filter
+
+- not a good filter
+
+
+in OH:
+frequency of "smile" is changing over time, maybe filter out the bandwidth of the smile
+chop out the smile (though this may also chop out the signal)
+so maybe create a filter that is time dependent so it doesn't chop out signal

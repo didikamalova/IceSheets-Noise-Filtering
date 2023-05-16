@@ -2,7 +2,7 @@ Monday, May 15th:
 - Code written does pulse compression for us
 - We can play around with windowing functions
 
-The used signal is a "chirped" signal at 15mHz that sweeps through frequencies
+The used signal is a "chirped" signal at 15mHz wide that sweeps through frequencies
 - if there's noise in the middle of a chirp: chop it out, but we lose part of the original
 signal. however, we can reconstruct part of the signal as well
 - interpolating sampled parts of a signal

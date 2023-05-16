@@ -24,3 +24,6 @@ signal. however, we can reconstruct part of the signal as well
 
 convolution: IFFT(FFT(Chirp)*FFT(-Chirp)) 
 - provides sinc function
+
+
+For measuring speed of light in ice, assume the dielectric constant for ice remains constant

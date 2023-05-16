@@ -1,8 +1,12 @@
 Monday, May 15th:
 - Code written does pulse compression for us
 - We can play around with windowing functions
-- fast time: pulse? slow time: airplane
-there's a bottom of the ice sheet at the "bottom" of the radargram
+
+
+Airplane sends signal/pulse to ice sheet
+Once it reaches the bottom of the ice cheet, it bounces back
+- there's a bottom of the ice sheet at the "bottom" of the radargram
+
 
 SNR - signal to noise ratio, starting point is 27dB (how much power is coming back from the ice sheet bed)
 - SNR=20log(S/N)
@@ -10,3 +14,13 @@ SNR - signal to noise ratio, starting point is 27dB (how much power is coming ba
     - S: peak @ bed
 
 
+This is a "chirped" signal moved lower in frequency (sweeping through frequencies)
+- if there's noise in the middle of a chirp: chop it out, but we lose part of the original
+signal. however, we can reconstruct part of the signal as well
+- interpolating sampled parts of a signal
+
+
+- fast time: pulse? slow time: airplane
+
+convolution: IFFT(FFT(Chirp)*FFT(-Chirp)) 
+- provides sinc function

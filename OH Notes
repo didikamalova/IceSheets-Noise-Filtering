@@ -31,3 +31,7 @@ convolution: IFFT(FFT(Chirp)*FFT(-Chirp))
 
 For measuring speed of light in ice, assume the dielectric constant for ice remains constant
 I feel like Dusty hinted that we should use an LPF, we just need to shift it.
+
+LOWPASS FILTER CHARACTERISTICS
+lowpass_filter = scipy.signal.butter(4, 15e6, btype='lowpass', output='sos', fs=ds.fs)
+- 15 mHz, fourth order butterworth filter

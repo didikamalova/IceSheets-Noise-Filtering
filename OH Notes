@@ -1,4 +1,12 @@
 Monday, May 15th:
 - Code written does pulse compression for us
 - We can play around with windowing functions
-- 
+- fast time: pulse? slow time: airplane
+there's a bottom of the ice sheet at the "bottom" of the radargram
+
+SNR - signal to noise ratio, starting point is 27dB (how much power is coming back from the ice sheet bed)
+- SNR=20log(S/N)
+    - N: standard deviation of NOISE
+    - S: peak @ bed
+
+

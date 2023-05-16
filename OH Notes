@@ -20,7 +20,10 @@ signal. however, we can reconstruct part of the signal as well
 - interpolating sampled parts of a signal
 
 
-- fast time: pulse? slow time: airplane
+- fast time: the time access for the pulse travelling down, reflecting, and coming back up to sonar
+- slow time: real world time in which the plane is moving across the surface of the ice
+y-axis: depth
+x-axis: distance travelled
 
 convolution: IFFT(FFT(Chirp)*FFT(-Chirp)) 
 - provides sinc function

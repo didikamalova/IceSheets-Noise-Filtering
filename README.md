@@ -1,4 +1,4 @@
-# Filtering Noise from Ice Sheets using Dynamic Bandstop Filters
+# :ice_cube: Filtering Noise from Ice Sheets using Dynamic Bandstop Filters :ice_cube:
 
 <h1> Team Members </h1>
 - Naomi Mo <br>

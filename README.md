@@ -1,7 +1,5 @@
 # Filtering Noise from Ice Sheets using Dynamic Bandstop Filters
 
-<h1> Project Description </h1>
-
 <h1> Team Members </h1>
 - Naomi Mo <br>
 - Didi Kamalova <br>
@@ -13,4 +11,10 @@ In order to maximize our SNR, we combined our most successful filters, in order 
 
 By adding further optimizations, such as additional bandstop filters across certain frequencies with higher spectral density (an example if shown in figure 14), as well as experimenting with elliptic filters with extremely high stop band attenuation, we achieved an even higher SNR: 36.36 dB.
 
+<p align="center">
+  <img src="media/final_radargram.png" title="Final Radargram" width = "500">
+</p>
+<p align="center">
+  <img src="media/final_spectrogram.png" title="Final Spectrogram" width = "500">
+</p>
 
